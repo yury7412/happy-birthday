@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #FFE3DF;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+section{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.main{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    align-items: center;
+}
+
+.prg{
+    margin-top: 30px;
+}
+
+
+.h1{
+    font-family: 'Nunito';
+    font-weight: 800;
+    font-size: 52px;
+    line-height: 62px;
+    color: rgba(201, 60, 32, 0.7);
+}
+
+
+
+.btn{
+    background: #765699;
+    border-radius: 100px;
+    padding: 17px 43px;
+    position: absolute;
+    margin-top: 30px;
+}
+
+.btn:hover{
+    background-color: #441c6e;
+}
+
+
+
+.prg{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: rgba(34, 25, 77, 0.7);
+}
+
+
+@media screen and (max-width:768px) {
+    .main{
+        flex-wrap: wrap-reverse;
+    }
+
+    .right{
+        margin: 0 auto;
+    }
+
+    .left{
+        margin: 0 auto;
+    }
+
+    .h1{
+        text-align: center;
+        margin-top: 25px;
+        font-size: 47px;
+    }
+
+    .prg{
+        text-align: center;
+    }
+
+    .btn{
+        padding: 17px 175px;
+    }
+}
+
+
+@media screen and (max-width:480px) {
+    .main{
+        flex-wrap: wrap-reverse;
+        padding: 16px 16px;
+    }
+
+    .right img{
+        margin: 0 auto;
+        width: 300px;
+    }
+
+    .left{
+        margin: 0 auto;
+    }
+
+    .h1{
+        text-align: center;
+        margin-top: 25px;
+        font-size: 40px;
+    }
+
+    .prg{
+        text-align: center;
+        font-size: 11px;
+        font-weight: 800;
+    }
+
+    .btn{
+        padding: 17px 100px;
+        margin-left: 10px;
+    }
+}
+
+
+
+@media screen and (max-width:360px) {
+    .main{
+        padding: 24px 24px;
+    }
+
+    .right img{
+        margin: 0 auto;
+        width: 300px;
+    }
+
+    .left{
+        margin: 0 auto;
+    }
+
+    .h1{
+        text-align: center;
+        margin-top: 25px;
+        font-size: 30px;
+    }
+
+    .prg{
+        text-align: center;
+        font-size: 10px;
+        font-weight: 800;
+    }
+
+    .btn{
+        padding: 17px 80px;
+        margin-left: 20px;
+        font-size: 14px;
+    }
+}
