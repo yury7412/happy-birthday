@@ -94,11 +94,6 @@ section{
 
 
 @media screen and (max-width:480px) {
-    .main{
-        flex-wrap: wrap-reverse;
-        padding: 16px 16px;
-    }
-
     .right img{
         margin: 0 auto;
         width: 300px;
